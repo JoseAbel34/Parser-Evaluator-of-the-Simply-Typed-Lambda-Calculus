@@ -1,4 +1,3 @@
--- Completed
 module DeBruijnIndex where
 
 import Syntax

@@ -34,8 +34,8 @@ instance Show Term where
     show (IsZeroTerm t)            = "iszero(" ++ show t ++ ")"
 
 show2 :: Term -> String
-show2 (AbsTerm x _ tm)         = "abs(" ++ x ++ "." ++ show tm ++ ")"
-show2 x                        = show x
+show2 (AbsTerm x _ tm) = "abs(" ++ x ++ "." ++ show tm ++ ")"
+show2 x                = show x
 
 data Binding = NameBind
     | VarBind Type deriving (Eq, Show)

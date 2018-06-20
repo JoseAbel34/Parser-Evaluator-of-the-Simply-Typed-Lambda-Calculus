@@ -1,4 +1,3 @@
--- Completed
 module Evaluator where
 
 import Syntax

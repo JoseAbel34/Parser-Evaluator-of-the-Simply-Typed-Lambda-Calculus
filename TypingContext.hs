@@ -1,4 +1,3 @@
--- Completed
 module TypingContext where
 
 import Syntax

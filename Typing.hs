@@ -1,4 +1,3 @@
--- Completed
 module Typing where
 
 import Syntax
